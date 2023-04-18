@@ -1,5 +1,5 @@
 import React, { useState, useEffect, createContext } from "react";
-import { getAuth, onAuthStateChanged, signOut } from "firebase/auth";
+import { getAuth } from "firebase/auth";
 import app from "./firebase/firebase";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
@@ -7,7 +7,6 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Dashboard from "./components/Dashboard";
 
-const auth = getAuth(app);
 const Appstate = createContext();
 
 function App() {
