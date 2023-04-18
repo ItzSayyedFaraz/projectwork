@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ItzSayyedFaraz/projectwork.git/static/css/main.1c0c7de9.css",
+    "main.js": "/ItzSayyedFaraz/projectwork.git/static/js/main.efa725da.js",
+    "static/js/787.8813e706.chunk.js": "/ItzSayyedFaraz/projectwork.git/static/js/787.8813e706.chunk.js",
+    "index.html": "/ItzSayyedFaraz/projectwork.git/index.html",
+    "main.1c0c7de9.css.map": "/ItzSayyedFaraz/projectwork.git/static/css/main.1c0c7de9.css.map",
+    "main.efa725da.js.map": "/ItzSayyedFaraz/projectwork.git/static/js/main.efa725da.js.map",
+    "787.8813e706.chunk.js.map": "/ItzSayyedFaraz/projectwork.git/static/js/787.8813e706.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c0c7de9.css",
+    "static/js/main.efa725da.js"
+  ]
+}
