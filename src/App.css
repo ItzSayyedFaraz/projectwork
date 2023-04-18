@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300&display=swap");
+.loginForm {
+  margin: auto;
+  height: 60vh;
+  width: 50%;
+  margin-top: 10vh;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px grey, -2px -2px 3px grey;
+}
+.insidelogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signuplink {
+  margin-left: 15px;
+
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.signuplink:hover {
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.heading {
+  padding: 25px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.signUpForm {
+  margin: auto;
+  height: 60vh;
+  width: 50%;
+  margin-top: 10vh;
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px grey, -2px -2px 3px grey;
+}
+
+.insideSignUp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anchor {
+  font-size: 15px;
+  color: blue;
+  text-decoration: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.anchor:hover {
+  background-color: rgba(0, 0, 255, 0.7);
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.onLogged {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.logout {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+.onLogged h1 {
+  background-image: linear-gradient(to right, red, blue, green);
+  color: transparent;
+  background-clip: text;
+  text-align: center;
+  margin-top: 15vh;
+  font-size: 200px;
+  font-family: "Righteous";
+  animation: example 8s linear infinite alternate;
+}
+
+@keyframes example {
+  0% {
+    background-image: linear-gradient(to right, white, grey, black);
+  }
+  25% {
+    background-image: linear-gradient(to right, yellow, orange, oldlace);
+  }
+  50% {
+    background-image: linear-gradient(to right, beige, brown, burlywood);
+  }
+  75% {
+    background-image: linear-gradient(to right, aqua, aliceblue, blueviolet);
+  }
+  100% {
+    background-image: linear-gradient(to right, wheat, bisque, brown);
+  }
+}
+
+.ifNotLogged {
+  font-family: "Roboto";
+  text-align: center;
+  margin-top: 20vh;
+}
+.dloginButton{
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
